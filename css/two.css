@@ -1,0 +1,118 @@
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7a027d;
+  }
+
+  .section-title .hot {
+    font-style: italic;
+    color: #ff007f;
+  }
+
+  .product-price {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
+  .discount-price {
+    text-decoration: line-through;
+    color: #ec5151;
+  }
+
+  .save-badge {
+    background-color: #ff007f;
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .product-card {
+    border: none;
+    position: relative;
+  }
+
+  .product-card img {
+    width: 100px;
+    height: auto;
+  }
+
+  .add-to-cart-btn {
+    padding: 10 20px;
+    background-color: #f8e1f2;
+    color: #7a027d;
+    border: 1px solid #e0c0d9;
+    font-size: 12px;
+  }
+
+  .flash-sale {
+    color: #ff007f;
+    font-weight: lighter;
+  }
+  
+  .flash-sale .lightning {
+    color: #ffcc00;
+  }
+
+  .highlight-section {
+    background-color: #000;
+    color: white;
+    padding: 100px;
+    background-size: auto;
+}
+.highlight-title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+}
+.highlight-button {
+    background-color: #ff00a5; /* Hot Pink */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+.highlight-button:hover {
+    background-color: #ff1abb;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+
+}
+.footer .footer-payment img {
+  width: 40px;
+  margin-right: 30px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #ddd;
+}
+.footer .footer-section-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer-social-icons a {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.footer-bottom {
+  text-align: center;
+  padding: 5;
+  background-color: #a435a5;
+}
