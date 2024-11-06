@@ -15,8 +15,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="css/cart.css"/>
-
+    <link rel="stylesheet" href="css/detail.css"/>
+  </head>
     <!--Navbar-->
     <body>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -65,7 +65,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <li><a class="dropdown-item" href="two.html" style="color: #75084D;">MAKEUP</a></li>
-                  <li><a class="dropdown-item" href="#" style="color: #75084D;">SKINCARE</a></li>
+                  <li><a class="dropdown-item" href="skincare.html" style="color: #75084D;">SKINCARE</a></li>
                 </ul>
               </li>
             </ul>
@@ -86,80 +86,29 @@
         </div>
       </nav>
 
-    </style>
-  </head>
-  <body class="bg-white">
-  
-    <!-- Products -->
-    <div class="container py-5">
-      <div class="row text-center mt-4">
-
-        <!-- Product 1 -->
-        <div class="col-md-4">
-          <div class="product-card">
-            <div class="product-name">
-            <h2>ESQA Flawless Cushion Serum SPF 50+</h2>
+      <!--imgslider-->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="ASSETS/img/cushionnewwebsitevanilla-removebg-preview.png" class="d-block w-10" alt="...">
           </div>
-            <p>PA+++</p>
-            <p class="product-price">Rp 185.000 - 15gr</p>
-    
-            
-          <div class="card product-card">
-           
-            <img src="ASSETS/img/cushionnewwebsitevanilla-removebg-preview.png" class="card-img-top mx-auto" alt="Product 1">
-            <div class="card-body">
-              <h5 class="card-title fs-9">ESQA Flawless Cushion Serum SPF 50+ PA++++</h5>
-              <p class="product-price fs-9">IDR RP 185.000</p>
-            </div>
+          <div class="carousel-item">
+            <img src="ASSETS/img/esqa tester.png" class="d-block w-7" alt="...">
           </div>
-          <div class="quantity-wrapper">
-            <button class="btn btn-quantity" type="button" onclick="decreaseQuantity()">-</button>
-            <input type="number" id="quantity" class="form-control mx-2" value="1" min="1">
-            <button class="btn btn-quantity" type="button" onclick="increaseQuantity()">+</button>
         </div>
-          
-        </div>
-
-        <!--description-->
-        <!-- <div class="product-card">
-          <div class="product-name">
-          <h2>ESQA Flawless Cushion Serum SPF 50+</h2>
-        </div>
-          <p>PA+++</p>
-          <p class="product-price">Rp 185.000 - 15gr</p>
-  
-          <div class="quantity-wrapper">
-              <button class="btn btn-quantity" type="button" onclick="decreaseQuantity()">-</button>
-              <input type="number" id="quantity" class="form-control mx-2" value="1" min="1">
-              <button class="btn btn-quantity" type="button" onclick="increaseQuantity()">+</button>
-          </div>
-  
-          <button class="btn add-to-cart">ADD TO CART • Rp 185.000</button>
-      </div> -->
-  
-      <script>
-          function decreaseQuantity() {
-              var quantity = document.getElementById("quantity");
-              if (quantity.value > 1) {
-                  quantity.value = parseInt(quantity.value) - 1;
-              }
-          }
-  
-          function increaseQuantity() {
-              var quantity = document.getElementById("quantity");
-              quantity.value = parseInt(quantity.value) + 1;
-          }
-      </script>
-  </body>
-  
-
-
-
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-        </body>
-    </head>
-  </html>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </div>
-  </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    </body>
+  </head>
+</html>

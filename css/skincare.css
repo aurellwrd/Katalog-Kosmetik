@@ -88,8 +88,9 @@ body {
   padding: 0;
 }
 .footer {
-  background-color: #E4B1F0;
+  background-color: #000;
   color: #fff;
+
 }
 .footer .footer-payment img {
   width: 40px;
@@ -98,9 +99,6 @@ body {
 .footer a {
   color: #fff;
   text-decoration: none;
-}
-.vano {
-  margin-left: 50px !important;
 }
 .footer a:hover {
   color: #ddd;
@@ -116,5 +114,5 @@ body {
 .footer-bottom {
   text-align: center;
   padding: 5;
-  background-color: #f8e1f2;
+  background-color: #a435a5;
 }
